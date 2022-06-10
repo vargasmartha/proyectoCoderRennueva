@@ -9,6 +9,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/*Reseteo de CSS
 header{
     background-color: #dddddd;
     display: flex;
@@ -17,6 +18,7 @@ header{
     padding: 10px 10px;
     flex-wrap: wrap;
 }
+*/
 nav ul{
     list-style: none;
     display: flex;
@@ -29,9 +31,16 @@ a{
     color: #2c2b2b;
     font-weight: 600;
 }
+.logo{
+    max-width: 230;
+}
+.gris{
+    background-color: #dddddd;
+}
 a:hover{
     color: #068e31;
 }
+
 .contenedor{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
